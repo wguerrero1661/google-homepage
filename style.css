@@ -1,0 +1,106 @@
+body{
+  -webkit-appearance: none;
+}
+.nav{
+  display: block;
+  margin: 5px 5px 250px 5px;
+  padding: 15px;
+
+}
+a, button{
+  cursor: pointer;
+
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+
+}
+.nav img{
+  max-width: 25px;
+  max-height: 25px;
+  overflow: auto;
+
+}
+
+.nav-left li{
+  float: left;
+
+}
+.nav-right li{
+  float: right;
+}
+.btn-signin{
+  background-color: #4285f4;
+  border-radius: 7px;
+  padding: 3px 8px;
+  color: white;
+
+}
+
+
+
+.logo{
+  margin: auto;
+  width: 50%;
+  display: block;
+
+}
+.logo img{
+  display: block;
+  margin: auto;
+  width: 50%;
+
+}
+#search{
+  display: block;
+  margin: auto;
+  width: 50%;
+  max-height: 80px;
+  width: 80%;
+  padding: 16px;
+}
+.btn-search{
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  padding: 5px 6px 5px 6px;
+  font-size: 30px;
+
+
+}
+
+.btn-search button{
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding: 7px 9px;
+}
+
+.fbar{
+  background-color: #e4e4e4;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  color:#777;
+}
+.nav-foot{
+  display: block;
+  padding: 5px;
+  color:#777;
+
+}
